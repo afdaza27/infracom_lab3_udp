@@ -14,9 +14,9 @@ address1 = (localip, localport1)
 address2 = (localip, localport2)
 address3 = (localip, localport3)
 
-nombre_video_1 = "8. 1963, Rapsodia en Bogotá.m4v"
+nombre_video_1 = "Minecraft.mp4"
 nombre_video_2 = "Kraft Punk.mp4"
-nombre_video_3 = "8. 1963, Rapsodia en Bogotá.m4v"
+nombre_video_3 = "Morshu Beatbox.mp4"
 
 
 # create a datagram socket
@@ -53,7 +53,7 @@ while (True):
     print(client_message)
     print(client_ip)
 
-    options = "Seleccione uno de los tres canales para ver los videos: \n1. Rapsodia en Bogota \n2. Kraft Punk \n3. guacamole nigga penis\n"
+    options = "Seleccione uno de los tres canales para ver los videos: \n1. Minecraft en 1 minuto \n2. Kraft Punk \n3. Morshu Beatbox\n"
 
     options_bytes = str.encode(options)
 
